@@ -2,7 +2,7 @@
   <div class="flex h-15 py-2 w-screen bg-indigo-700">
     <div class="flex flex-row items-center mx-8 space-x-8 navfadein">
       <NuxtLink to="/">
-        <nuxt-img src="~/assets/owo.svg" width="40" height="40" />
+        <img src="~/assets/owo.svg" width="40" height="40">
       </NuxtLink>
       <NuxtLink to="/profile">
         <h1 class="text-xl text-white">

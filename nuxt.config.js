@@ -39,7 +39,6 @@ export default {
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
     'nuxt-windicss',
-    '@nuxt/image',
     'nuxt-animejs'
   ],
 
