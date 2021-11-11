@@ -44,8 +44,8 @@ export default {
           id: 2,
           title: 'guweb',
           desc: 'Front-facing appearance of the osu! server protocol',
-          to: 'github.com/Varkaria/guweb/',
-          to2: 'akatsuki.pw'
+          to: 'https://github.com/Varkaria/guweb/',
+          to2: 'https://akatsuki.pw'
         },
         {
           id: 3,
@@ -66,7 +66,7 @@ export default {
           title: 'osu!Tailwind',
           desc: 'Recreation of osu! website using tailwindcss',
           to: 'https://github.com/Gusb3ll/osu-tailwind',
-          to2: ''
+          to2: 'https://tailwind.gusbell.tech'
         },
         {
           id: 6,
