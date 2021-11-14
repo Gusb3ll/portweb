@@ -50,14 +50,14 @@ export default {
         {
           id: 3,
           title: 'Holotranslator',
-          desc: 'Live Japanese speech to text translator',
+          desc: 'Live Japanese speech to text translator using python',
           to: 'https://github.com/Gusb3ll/Holotranslator',
           to2: ''
         },
         {
           id: 4,
           title: 'EulerBot',
-          desc: 'A bot for mathmetic POSN discord server',
+          desc: 'A bot for mathmetic POSN discord server using discord.py',
           to: 'https://github.com/Gusb3ll/Euler-bot',
           to2: ''
         },
