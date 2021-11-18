@@ -35,41 +35,48 @@ export default {
       projects: [
         {
           id: 1,
+          title: 'mempool',
+          desc: 'Blockchain Explorer for Bitcoin community',
+          to: 'https://github.com/mempool/mempool',
+          to2: 'https://mempool.space'
+        },
+        {
+          id: 2,
           title: 'oturna (Private)',
           desc: 'A tournament manager for rhythm game, osu!',
           to: '',
           to2: 'https://omthpl.varkaria.tech'
         },
         {
-          id: 2,
+          id: 3,
           title: 'guweb',
           desc: 'Front-facing appearance of the osu! server protocol',
           to: 'https://github.com/Varkaria/guweb/',
           to2: 'https://akatsuki.pw'
         },
         {
-          id: 3,
+          id: 4,
           title: 'Holotranslator',
           desc: 'Live Japanese speech to text translator using python',
           to: 'https://github.com/Gusb3ll/Holotranslator',
           to2: ''
         },
         {
-          id: 4,
+          id: 5,
           title: 'EulerBot',
           desc: 'A bot for mathmetic POSN discord server using discord.py',
           to: 'https://github.com/Gusb3ll/Euler-bot',
           to2: ''
         },
         {
-          id: 5,
+          id: 6,
           title: 'osu!Tailwind',
           desc: 'Recreation of osu! website using tailwindcss',
           to: 'https://github.com/Gusb3ll/osu-tailwind',
           to2: 'https://tailwind.gusbell.tech'
         },
         {
-          id: 6,
+          id: 7,
           title: 'Kaggle',
           desc: 'Repoistory storing all of my code for Kaggle compeitions',
           to: 'https://github.com/Gusb3ll/Kaggle',
