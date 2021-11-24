@@ -12,7 +12,7 @@
 </template>
 
 <style>
-html, body, .main {
+.main {
   background-color: rgb(240, 240, 240);
 }
 .footer {
