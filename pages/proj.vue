@@ -6,7 +6,7 @@
           My Projects
         </h1>
       </div>
-      <div class="grid md:grid-cols-3 sm:grid-cols-1 grid-flow-row w-full xl:gap-x-8 gap-x-2 mt-4">
+      <div class="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 grid-flow-row w-full xl:gap-x-8 gap-x-2 mt-4">
         <div v-for="i in projects" :key="i.id">
           <div class="projfadein max-w-lg py-4 px-8 bg-white shadow-lg rounded-lg my-4 mx-2">
             <div>
@@ -36,9 +36,9 @@ export default {
         {
           id: 1,
           title: 'mempool',
-          desc: 'Blockchain Explorer for Bitcoin community',
+          desc: 'Blockchain explorer for monitoring memorypool of Bitcoin',
           to: 'https://github.com/mempool/mempool',
-          to2: 'https://mempool.space'
+          to2: 'https://mempool.space/th'
         },
         {
           id: 2,
@@ -49,38 +49,45 @@ export default {
         },
         {
           id: 3,
+          title: 'Kaggle',
+          desc: 'Repoistory storing all of my code for Kaggle compeitions',
+          to: 'https://github.com/Gusb3ll/Kaggle',
+          to2: ''
+        },
+        {
+          id: 4,
           title: 'guweb',
           desc: 'Front-facing appearance of the osu! server protocol',
           to: 'https://github.com/Varkaria/guweb/',
           to2: 'https://akatsuki.pw'
         },
         {
-          id: 4,
+          id: 5,
           title: 'Holotranslator',
           desc: 'Live Japanese speech to text translator using python',
           to: 'https://github.com/Gusb3ll/Holotranslator',
           to2: ''
         },
         {
-          id: 5,
+          id: 6,
           title: 'EulerBot',
           desc: 'A bot for mathmetic POSN discord server using discord.py',
           to: 'https://github.com/Gusb3ll/Euler-bot',
           to2: ''
         },
         {
-          id: 6,
-          title: 'osu!Tailwind',
-          desc: 'Recreation of osu! website using tailwindcss',
-          to: 'https://github.com/Gusb3ll/osu-tailwind',
-          to2: 'https://tailwind.gusbell.tech'
+          id: 7,
+          title: 'KanataBot',
+          desc: 'A bot for anime image searching plus some feature',
+          to: 'https://github.com/Gusb3ll/kanata',
+          to2: ''
         },
         {
-          id: 7,
-          title: 'Kaggle',
-          desc: 'Repoistory storing all of my code for Kaggle compeitions',
-          to: 'https://github.com/Gusb3ll/Kaggle',
-          to2: ''
+          id: 8,
+          title: 'osu!Tailwind',
+          desc: 'Recreation of osu! website using tailwindcss (Discontinued)',
+          to: 'https://github.com/Gusb3ll/osu-tailwind',
+          to2: 'https://tailwind.gusbell.tech'
         }
       ]
     }
