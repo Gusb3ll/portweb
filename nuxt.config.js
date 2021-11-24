@@ -15,10 +15,10 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Kitpipat Jaritwong website' },
+      { hid: 'description', name: 'description', content: "Kitpipat Jaritwong's website" },
       { name: 'format-detection', content: 'telephone=no' },
       { hid: 'og:title', name: 'og:title', content: 'Kitpipat Jaritwong' },
-      { hid: 'og:description ', name: 'og:description' , content: 'Kitpipat Jaritwong website' },
+      { hid: 'og:description ', name: 'og:description', content: "Kitpipat Jaritwong's website" },
       { hid: 'og:type', name: 'og:type', content: 'website' },
       { hid: 'og:url', name: 'og:url', content: 'https://www.gusbell.tech' },
       { hid: 'og:image', name: 'og:image', content: 'https://cdn.discordapp.com/attachments/888349851870429184/895346858409476168/og_img.png' },
