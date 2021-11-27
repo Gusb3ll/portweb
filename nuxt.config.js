@@ -7,8 +7,8 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s | Kitpipat Jaritwong',
-    title: 'Loading',
+    titleTemplate: '%s',
+    title: 'Kitpipat Jaritwong',
     htmlAttrs: {
       lang: 'en'
     },
