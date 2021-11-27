@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+@font-face {
+  font-family: 'Torus';
+  src: local('Torus'), url('~/assets/font/Torus Regular.otf') format('opentype');
+  font-weight: 400;
+}
+
+html, body {
+  font-family: 'Torus', 'Quicksand', sans-serif;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #010C19;
+}
