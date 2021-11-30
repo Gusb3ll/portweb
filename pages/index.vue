@@ -10,7 +10,7 @@
             [ To v1 website ]
           </h1>
         </a>
-        <a target="_blank" href="https://v1.gusbell.tech">
+        <a target="_blank" href="https://old.gusbell.tech">
           <h1 class="title3 text-3xl text-white text-center">
             [ To old website ]
           </h1>
