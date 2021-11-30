@@ -1,11 +1,6 @@
 <template>
-  <div class="flex flex-col">
-    <div class="space-y-3">
-      <h1 class="text-3xl text-[#ddd] text-semibold text-center">
-        [ Initializing ]
-      </h1>
-      <div class="counter text-xl text-[#ddd] text-semibold text-center" />
-    </div>
+  <div class="loading flex flex-col">
+    <div class="counter text-2xl text-[#555] text-semibold text-center" />
   </div>
 </template>
 
@@ -13,7 +8,11 @@
 export default {
   name: 'Loading',
   mounted () {
+    this.LoadingFadeIn()
     this.countUp()
+    setTimeout(() => {
+      this.LoadingFadeOut()
+    }, 4000)
   },
   methods: {
     countUp () {
@@ -24,6 +23,24 @@ export default {
         duration: 2500,
         delay: 1000,
         round: 1
+      })
+    },
+    LoadingFadeIn () {
+      this.$anime({
+        targets: '.loading',
+        opacity: [0, 1],
+        duration: 1000,
+        delay: 0,
+        easing: 'easeOutQuint'
+      })
+    },
+    LoadingFadeOut () {
+      this.$anime({
+        targets: '.loading',
+        opacity: [1, 0],
+        duration: 1000,
+        delay: 0,
+        easing: 'easeOutQuint'
       })
     }
   }

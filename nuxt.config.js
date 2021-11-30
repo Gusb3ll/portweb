@@ -23,6 +23,7 @@ export default {
       { hid: 'og:image:height', name: 'og:image:height', content: '630' }
     ],
     link: [
+      { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/yakuhanjp@3.4.1/dist/css/yakuhanjp.min.css' },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
