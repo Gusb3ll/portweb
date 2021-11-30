@@ -5,8 +5,13 @@
         <h1 class="title text-7xl text-white">
           UNDER DEVELOPMENT
         </h1>
-        <a target="_blank" href="https://old.gusbell.tech">
+        <a target="_blank" href="https://v1.gusbell.tech">
           <h1 class="title2 text-3xl text-white text-center">
+            [ To v1 website ]
+          </h1>
+        </a>
+        <a target="_blank" href="https://v1.gusbell.tech">
+          <h1 class="title3 text-3xl text-white text-center">
             [ To old website ]
           </h1>
         </a>
@@ -19,7 +24,6 @@
 export default {
   mounted () {
     this.TitleFadeIn()
-    this.TitleFadeIn2()
   },
   methods: {
     TitleFadeIn () {
@@ -37,8 +41,6 @@ export default {
         delay: 0,
         easing: 'easeOutQuint'
       })
-    },
-    TitleFadeIn2 () {
       this.$anime({
         targets: '.title2',
         opacity: [0, 1],
@@ -51,6 +53,20 @@ export default {
         translateY: [25, 0],
         duration: 1000,
         delay: 500,
+        easing: 'easeOutQuint'
+      })
+      this.$anime({
+        targets: '.title3',
+        opacity: [0, 1],
+        duration: 2000,
+        delay: 800,
+        easing: 'easeOutQuint'
+      })
+      this.$anime({
+        targets: '.title3',
+        translateY: [25, 0],
+        duration: 1000,
+        delay: 800,
         easing: 'easeOutQuint'
       })
     },
