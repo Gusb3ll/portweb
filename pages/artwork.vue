@@ -9,7 +9,8 @@
       <div class="grid md:grid-cols-3 sm:grid-cols-1 grid-flow-row w-full xl:gap-x-8 gap-x-2 mt-4">
         <div v-for="i in arts" :key="i.id">
           <div
-            class="artfadein max-w-lg py-4 px-8 bg-white shadow-lg rounded-lg my-4 mx-2">
+            class="artfadein max-w-lg py-4 px-8 bg-white shadow-lg rounded-lg my-4 mx-2"
+          >
             <a :href="i.src" target="_blank">
               <img :src="i.src" :height="i.height" :width="i.width">
             </a>
