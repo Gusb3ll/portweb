@@ -1,6 +1,6 @@
 <template>
   <div class="loading flex flex-col">
-    <div class="counter text-2xl text-[#555] text-semibold text-center" />
+    <div class="counter text-2xl text-white text-semibold text-center" />
   </div>
 </template>
 
