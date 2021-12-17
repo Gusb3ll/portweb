@@ -62,7 +62,7 @@ export default {
     }
   },
   head: {
-    title: 'Certificates'
+    title: 'Certificates | Kitpipat Jaritwong'
   },
   mounted () {
     this.ProjAnimation()

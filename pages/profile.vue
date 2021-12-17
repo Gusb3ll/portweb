@@ -83,7 +83,7 @@
 <script>
 export default {
   head: {
-    title: 'Profile'
+    title: 'Profile | Kitpipat Jaritwong'
   },
   mounted () {
     this.ProfileAnimation()

@@ -38,7 +38,7 @@ export default {
     }
   },
   head: {
-    title: 'Artworks'
+    title: 'Artworks | Kitpipat Jaritwong'
   },
   mounted () {
     this.ArtAnimation()

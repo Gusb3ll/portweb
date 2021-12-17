@@ -93,7 +93,7 @@ export default {
     }
   },
   head: {
-    title: 'Projects'
+    title: 'Projects | Kitpipat Jaritwong'
   },
   mounted () {
     this.ProjTitleAnimation()
