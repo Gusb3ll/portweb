@@ -96,11 +96,10 @@ export default {
     title: 'Projects | Kitpipat Jaritwong'
   },
   mounted () {
-    this.ProjTitleAnimation()
     this.ProjAnimation()
   },
   methods: {
-    ProjTitleAnimation () {
+    ProjAnimation () {
       this.$anime({
         targets: '.projTitlefadein',
         opacity: [0, 1],
@@ -109,8 +108,6 @@ export default {
         delay: 0,
         easing: 'easeOutQuint'
       })
-    },
-    ProjAnimation () {
       this.$anime({
         targets: '.projfadein',
         opacity: [0, 1],
