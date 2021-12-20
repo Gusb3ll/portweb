@@ -1,8 +1,8 @@
 <template>
   <div class="flex h-full">
-    <div class="mx-auto">
+    <div class="mx-auto mt-16">
       <div class="my-8">
-        <h1 class="text-4xl text-center font-500 projTitlefadein">
+        <h1 class="text-4xl text-white text-center font-500 projTitlefadein">
           My Projects
         </h1>
       </div>
@@ -93,14 +93,13 @@ export default {
     }
   },
   head: {
-    title: 'Projects'
+    title: 'Projects | Kitpipat Jaritwong'
   },
   mounted () {
-    this.ProjTitleAnimation()
     this.ProjAnimation()
   },
   methods: {
-    ProjTitleAnimation () {
+    ProjAnimation () {
       this.$anime({
         targets: '.projTitlefadein',
         opacity: [0, 1],
@@ -109,8 +108,6 @@ export default {
         delay: 0,
         easing: 'easeOutQuint'
       })
-    },
-    ProjAnimation () {
       this.$anime({
         targets: '.projfadein',
         opacity: [0, 1],

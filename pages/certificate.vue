@@ -1,8 +1,8 @@
 <template>
   <div class="flex h-sreen">
-    <div class="mx-auto">
+    <div class="mx-auto mt-16">
       <div class="my-8">
-        <h1 class="text-4xl text-center font-500 certTitlefadein">
+        <h1 class="text-4xl text-white text-center font-500 certTitlefadein">
           My Certificates
         </h1>
       </div>
@@ -24,7 +24,7 @@ export default {
       certs: [
         {
           id: 1,
-          src: require('~/assets/cert/tm1.jpg')
+          src: require('~/assets/cert/tm1-com.jpg')
         },
         {
           id: 2,
@@ -62,14 +62,13 @@ export default {
     }
   },
   head: {
-    title: 'Certificates'
+    title: 'Certificates | Kitpipat Jaritwong'
   },
   mounted () {
-    this.ProjTitleAnimation()
-    this.ProjAnimation()
+    this.CertAnimation()
   },
   methods: {
-    ProjTitleAnimation () {
+    CertAnimation () {
       this.$anime({
         targets: '.certTitlefadein',
         opacity: [0, 1],
@@ -78,8 +77,6 @@ export default {
         delay: 0,
         easing: 'easeOutQuint'
       })
-    },
-    ProjAnimation () {
       this.$anime({
         targets: '.certfadein',
         opacity: [0, 1],
