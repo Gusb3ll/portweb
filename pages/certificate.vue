@@ -65,10 +65,10 @@ export default {
     title: 'Certificates | Kitpipat Jaritwong'
   },
   mounted () {
-    this.ProjAnimation()
+    this.CertAnimation()
   },
   methods: {
-    ProjAnimation () {
+    CertAnimation () {
       this.$anime({
         targets: '.certTitlefadein',
         opacity: [0, 1],
