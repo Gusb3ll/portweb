@@ -53,26 +53,26 @@
 
 <script>
 export default {
-  data () {
-    return {
-      arts: [
-        {
-          id: 1,
-          src: require('~/assets/art/6.png')
-        },
-        {
-          id: 2,
-          src: require('~/assets/art/7.png')
-        },
-        {
-          id: 3,
-          src: require('~/assets/art/1.png'),
-          height: 256,
-          width: 256
-        }
-      ]
-    }
-  },
+  // data () {
+  //   return {
+  //     arts: [
+  //       {
+  //         id: 1,
+  //         src: require('~/assets/art/6.png')
+  //       },
+  //       {
+  //         id: 2,
+  //         src: require('~/assets/art/7.png')
+  //       },
+  //       {
+  //         id: 3,
+  //         src: require('~/assets/art/1.png'),
+  //         height: 256,
+  //         width: 256
+  //       }
+  //     ]
+  //   }
+  // },
   head: {
     title: 'Artworks | Kitpipat Jaritwong'
   },
