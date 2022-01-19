@@ -2,7 +2,7 @@
   <div class="flex h-full">
     <div class="mx-auto mt-16">
       <div class="my-8">
-        <h1 class="text-4xl text-white text-center font-500 projTitlefadein">
+        <h1 class="projTitlefadein text-4xl text-white text-center font-500">
           My Projects
         </h1>
       </div>
@@ -56,34 +56,41 @@ export default {
         },
         {
           id: 4,
+          title: 'keqing-stats-prediction',
+          desc: 'Status prediction of a character in Genshin Impact',
+          to: 'https://github.com/Gusb3ll/keqing-stats-prediction/',
+          to2: ''
+        },
+        {
+          id: 5,
           title: 'guweb',
           desc: 'Front-facing appearance of the osu! server protocol',
           to: 'https://github.com/Varkaria/guweb/',
           to2: 'https://akatsuki.pw'
         },
         {
-          id: 5,
+          id: 6,
           title: 'Holotranslator',
           desc: 'Live Japanese speech to text translator using python',
           to: 'https://github.com/Gusb3ll/Holotranslator',
           to2: ''
         },
         {
-          id: 6,
+          id: 7,
           title: 'EulerBot',
           desc: 'A bot for mathmetic POSN discord server using discord.py',
           to: 'https://github.com/Gusb3ll/Euler-bot',
           to2: ''
         },
         {
-          id: 7,
+          id: 8,
           title: 'KanataBot',
           desc: 'A bot for anime image searching plus some feature',
           to: 'https://github.com/Gusb3ll/kanata',
           to2: ''
         },
         {
-          id: 8,
+          id: 9,
           title: 'osu!Tailwind',
           desc: 'Recreation of osu! website using tailwindcss (Discontinued)',
           to: 'https://github.com/Gusb3ll/osu-tailwind',
