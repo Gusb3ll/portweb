@@ -1,3 +1,3 @@
 # portweb
 
-## Template for my portfolio website (migrate to portweb2)
+## Template for my portfolio website (migrate to stellar)
